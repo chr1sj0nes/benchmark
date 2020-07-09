@@ -20,7 +20,7 @@ jobs:
     - name: Build manylinux Python wheels
       uses: chr1sj0nes/python-wheels-manylinux-build@v0.2.2-manylinux2014-bazel-mk2
       with:
-        python-versions: 'cp36-cp36m cp37-cp37m'
+        python-versions: 'cp36-cp36m cp37-cp37m cp38-cp38'
         build-requirements: ''
         system-packages: 'bazel3'
         package-path: ''
